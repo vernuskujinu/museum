@@ -87,3 +87,10 @@ body {
 .wrapper {
     max-width: 1440px;
 }
+.intro_title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
