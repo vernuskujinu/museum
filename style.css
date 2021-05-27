@@ -85,7 +85,6 @@ body {
     background-color: #1E1E1E;
     font-family: Montserrat;
 }
-
 .header_wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -104,31 +103,31 @@ body {
   margin-left: 27px;
 }
 .wrapper {
-    max-width: 1440px;
+  max-width: 1440px;
 }
 .intro_title {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 57px;
-    line-height: 70px;
-    color: #FFFFFF;
-    height: 138px;
-    width: 590px;
-    left: 119px;
-    top: 265px;
-    margin-left: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 70px;
+  color: #FFFFFF;
+  height: 138px;
+  width: 590px;
+  left: 119px;
+  top: 265px;
+  margin-left: 60px;
 
 }
 .intro_subtitle {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    line-height: 27px;
-    color: #FFFFFF;
-    height: 108px;
-    width: 585px;
-    left: 119px;
-    top: 443px;
-    margin-left: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  height: 108px;
+  width: 585px;
+  left: 119px;
+  top: 443px;
+  margin-left: 60px;
 }
 .intro_button {
   height: 60px;
