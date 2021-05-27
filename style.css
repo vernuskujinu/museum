@@ -83,14 +83,21 @@
 /* styles */
 body {
     background-color: #1E1E1E;
+    font-family: Montserrat;
 }
 .wrapper {
     max-width: 1440px;
 }
 .intro_title {
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-weight: 700;
     font-size: 57px;
     line-height: 70px;
     color: #FFFFFF;
+}
+.intro_subtitle {
+  font-family: montserrat, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
 }
