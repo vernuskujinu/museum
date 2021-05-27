@@ -85,6 +85,24 @@ body {
     background-color: #1E1E1E;
     font-family: Montserrat;
 }
+
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  list-style: none;
+}
+.header_item {
+  margin-left: 27px;
+}
 .wrapper {
     max-width: 1440px;
 }
@@ -127,8 +145,8 @@ body {
 }
 .intro_img {
   position: absolute;
-width: 554px;
-height: 831px;
-left: 767px;
-top: 193px;
+  width: 554px;
+  height: 831px;
+  left: 767px;
+  top: 193px;
 }
