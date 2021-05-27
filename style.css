@@ -123,4 +123,12 @@ body {
   font-style: Regular;
   font-size: 20px;
   line-height: 27px;
+  margin-left: 60px;
+}
+.intro_img {
+  position: absolute;
+width: 554px;
+height: 831px;
+left: 767px;
+top: 193px;
 }
