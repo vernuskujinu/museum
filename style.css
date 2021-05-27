@@ -89,15 +89,38 @@ body {
     max-width: 1440px;
 }
 .intro_title {
-    font-family: montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 57px;
     line-height: 70px;
     color: #FFFFFF;
+    height: 138px;
+    width: 590px;
+    left: 119px;
+    top: 265px;
+    margin-left: 60px;
+
 }
 .intro_subtitle {
-  font-family: montserrat, sans-serif;
-  font-size: 18px;
-  line-height: 27px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    height: 108px;
+    width: 585px;
+    left: 119px;
+    top: 443px;
+    margin-left: 60px;
+}
+.intro_button {
+  height: 60px;
+  width: 284px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: #C10000;
   color: #FFFFFF;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 27px;
 }
