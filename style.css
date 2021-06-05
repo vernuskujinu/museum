@@ -81,6 +81,9 @@
         url("../fonts/montserrat-v15-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 /* styles */
+ul, li {
+  list-style: none;
+}
 body {
     background-color: #1E1E1E;
     font-family: Montserrat;
@@ -148,4 +151,23 @@ body {
   height: 831px;
   left: 767px;
   top: 193px;
+}
+.menu_link {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+color: #FFFFFF;
+}
+.menu_link:hover,
+.menu_link:focus,
+.menu_link:active {
+  opacity: 0.75;
+}
+.header_icon:hover,
+.header_icon:focus,
+.header_icon:active {
+  opacity: 0.75;
 }
