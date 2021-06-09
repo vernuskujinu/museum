@@ -81,6 +81,9 @@
         url("../fonts/montserrat-v15-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 /* styles */
+p {
+  color: #FFFFFF;
+}
 ul, li {
   list-style: none;
 }
@@ -125,7 +128,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 27px;
-  color: #FFFFFF;
   height: 108px;
   width: 585px;
   left: 119px;
@@ -174,7 +176,11 @@ body {
   font-weight: bold;
   font-size: 20px;
   line-height: 27px;
-  color: #FFFFFF;
+}
+.paintings_card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
 }
 .menu_link {
   text-decoration: none;
