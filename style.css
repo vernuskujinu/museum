@@ -152,6 +152,30 @@ body {
   left: 767px;
   top: 193px;
 }
+.paintings {
+  position: absolute;
+  width: 1206px;
+  height: 1779px;
+  left: 118px;
+  top: 1124px
+}
+.paintings_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.card_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
 .menu_link {
   text-decoration: none;
   font-family: Montserrat;
