@@ -159,7 +159,7 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 .menu_link:hover,
 .menu_link:focus,
@@ -170,4 +170,11 @@ color: #FFFFFF;
 .header_icon:focus,
 .header_icon:active {
   opacity: 0.75;
+}
+.footer {
+  position: absolute;
+  width: 1203px;
+  height: 144px;
+  left: 118px;
+  top: 3003px;
 }
