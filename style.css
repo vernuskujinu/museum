@@ -228,3 +228,21 @@ body {
   left: 118px;
   top: 3003px;
 }
+.footer_links {
+  position: absolute;
+  width: 56px;
+  height: 122px;
+  left: 878px;
+  bottom: 100px;
+}
+.menu_links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.links_menu {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
