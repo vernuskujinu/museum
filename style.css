@@ -210,6 +210,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
+  margin-right: 15px;
 }
 .menu_link:hover,
 .menu_link:focus,
@@ -230,15 +231,14 @@ body {
 }
 .footer_links {
   position: absolute;
-  width: 56px;
-  height: 122px;
-  left: 878px;
+  left: 678px;
   bottom: 100px;
 }
 .menu_links {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+  margin-right: 15px;
 }
 .links_menu {
   text-decoration: none;
