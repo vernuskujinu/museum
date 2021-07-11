@@ -154,6 +154,14 @@ body {
   left: 767px;
   top: 193px;
 }
+.button_title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-right: 15px;
+}
 .paintings {
   position: absolute;
   width: 1206px;
@@ -170,14 +178,18 @@ body {
   text-align: center;
   color: #FFFFFF;
 }
-.sort_btn {
-  background-color: transparent;
+.sort {
   width: 102px;
-  height: 35px;
+  height: 36px;
   left: 198px;
   top: 1203px;
+  padding-left: 14px;
   border: 1px solid #FFFFFF;
   box-sizing: border-box;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
   color: #FFFFFF;
 }
 .card_title {
@@ -188,6 +200,7 @@ body {
   line-height: 27px;
 }
 .paintings_card {
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
