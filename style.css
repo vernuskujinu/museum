@@ -109,7 +109,7 @@ body {
   margin-left: 27px;
 }
 .wrapper {
-  max-width: 1440px;
+  max-width: 1200px;
 }
 .intro_title {
   font-family: "Montserrat", sans-serif;
@@ -224,6 +224,16 @@ body {
   line-height: 22px;
   color: #FFFFFF;
   margin-right: 15px;
+}
+.header_burger:hover,
+.header_burger:focus,
+.header_burger:active {
+  opacity: 0.75;
+}
+.links_menu:hover,
+.links_menu:focus,
+.links_menu:active {
+  opacity: 0.75;
 }
 .menu_link:hover,
 .menu_link:focus,
