@@ -108,6 +108,9 @@ body {
 .header_item {
   margin-left: 27px;
 }
+.logo {
+ margin-top: 20px;
+}
 .wrapper {
   max-width: 1200px;
 }
