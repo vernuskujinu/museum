@@ -1,149 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Museum</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <div class="wrapper">
-            <div class="header_wrapper">
-                <nav class="header_nav">
-                    <ul class="header_list">
-                        <li class="header_item">
-                            <a href="" class="header_icon">
-                                <img src="assets/insta.svg" alt="instagram" />
-                            </a>
-                        </li>
-                        <li class="header_item">
-                            <a href="" class="header_icon">
-                                <img src="assets/twitter.svg" alt="twitter" />
-                            </a>
-                        </li>
-                        <li class="header_item">
-                            <a href="" class="header_icon">
-                                <img src="assets/youtube.svg" alt="youtube" />
-                            </a>
-                        </li>
-                        <li class="header_item">
-                            <a href="" class="header_icon">
-                                <img src="assets/linkedin.svg" alt="linked" />
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="header_logo">
-                    <img src="assets/Logo.svg" alt="Logo" class="logo">
-                </div>
-                <div class="header_burger">
-                    <img src="assets/Hamburger.svg" alt="" class="burger">
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Museum</title>
+  </head>
+  <body>
+    <section class="welcome">
+      <div class="countaner">
+        <header class="header">
+          <div class="logo">
+            <div class="logo__image"></div>
+            <h1 class="logo__title">LOUVRE</h1>
+          </div>
+          <nav>
+            <ul class="nav">
+              <li class="nav__item">Visiting</li>
+              <li class="nav__item">Explore</li>
+              <li class="nav__item">Video</li>
+              <li class="nav__item">Gallery</li>
+              <li class="nav__item">Tickets</li>
+              <li class="nav__item">Contacts</li>
+            </ul>
+          </nav>
+        </header>
+        <div class="welcome__count">
+          <h2 class="welcome__title title">Welcome <br />to the Louvre</h2>
+          <div class="welcome__text">From the castle to the museum</div>
+          <button class="welcome__button">
+            <div class="welcome__button-text">Discover the Louvre</div>
+          </button>
         </div>
-    </header>
-    <main class="main">
-        <div class="wrapper">
-        <section class="intro">
-            <h1 class="intro_title">Welcome to Art Museum</h1>
-            <p class="intro_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <button class="intro_button">Buy Ticket</button>
-            <img src="assets/kelly-kiernan-AJQtQULWKQI-unsplash 1.jpg" alt="title" class="intro_img">
-        </section>
-    </div>
-</main>
-<div class ="wrapper">
-    <section class="paintings">
-        <h1 class="paintings_title">Paintings</h1>
-        <label for="button_title" class="button_title">Sort by</label>
-        <select name="sort" class="sort">
-            <option value="name">Name</option>
-            <option value="autor">Autor</option>
-        </select>
-        <div class="paintings_card">
-            <div class="grid_card">
-                <img src="assets/girl-with-a-pearl-earring-the-famous-painting-2 1.jpg" alt="" class="card_img">
-                <p class="card_title">Johannes Vermeer, Girl with a Pearl Earring, 1665</p>
-            </div>
-            <div class="top_cards">
-            <div class="grid_card">
-                <img src="assets/1200px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited 1.jpg" alt="" class="card_img">
-                <p class="card_title">Sandro Botticelli, The Birth of Venus, 1484–1486</p>
-            </div>
-            <div class="grid_card">
-                <img src="assets/757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project 1.jpg" alt="" class="card_img">
-                <p class="card_title">Vincent van Gogh, The Starry Night, 1889</p>
-            </div>
-            <div class="grid_card">
-                <img src="assets/The-Kiss 1.jpg" alt="" class="card_img">
-                <p class="card_title">Gustav Klimt, The Kiss, 1907–1908</p>
-            </div>
-            <div class="grid_card">
-                <img src="assets/the-garden-of-earthly-delights-ii 1.jpg" alt="" class="card_img">
-                <p class="card_title">Hieronymus Bosch, The Garden of Earthly Delights, 1503–1515</p>
-            </div>
+        <div class="scrole">
+          <div class="scrole__numbers">
+            <div class="scrole__number scrole__numbers-now">01</div>
+            <div class="scrole__number scrole__numbers-max">05</div>
+          </div>
+          <div class="scrole__squares">
+            <div class="scrole__squares-square"></div>
+            <div class="scrole__squares-square"></div>
+            <div class="scrole__squares-square"></div>
+            <div class="scrole__squares-square"></div>
+            <div class="scrole__squares-square"></div>
+          </div>
+          <div class="scrole__arows">
+            <button class="scrole__arows-left"></button>
+            <button class="scrole__arows-right"></button>
+          </div>
         </div>
-        <div class="bottom_cards">
-            <div class="grid_card">
-                <img src="assets/image-2020-03-09T123556 1.jpg" alt="" class="card_img">
-                <p class="card_title">Pablo Picasso, Les Demoiselles d’Avignon, 1907</p>
-            </div>
-            <div class="grid_card">
-                <img src="assets/1024px-Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project 1.jpg" alt="" class="card_img">
-                <p class="card_title">Pieter Bruegel the Elder, The Harvesters, 1565</p>
-            </div>
-            <div class="grid_card">
-                <img src="assets/Goya_Maja_naga2 1.jpg" alt="" class="card_img">
-                <p class="card_title">Francisco de Goya y Lucientes, The Naked Maja, circa 1797–1800</p>
-            </div>
-            <div class="grid_card">
-                <img src="assets/Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814 1.jpg" alt="" class="card_img">
-                <p class="card_title">Jean Ingres, Grande Odalisque, 1814</p>
-            </div>
-            <div class="grid_card">
-                <img src="assets/804px-The_Scream 1.jpg" alt="" class="card_img">
-                <p class="card_title">Edvard Munch, The Scream,1893</p>
-            </div>
-            <div class="grid_card">
-                <img src="assets/739953613 1.jpg" alt="" class="card_img">
-                <p class="card_title">Édouard Manet, Olympia, 1863</p>
-            </div>
-        </div>
-            <div class="grid_card">
-                <img src="assets/Без названия 1.jpg" alt="" class="card_img">
-                <p class="card_title">Caspar David Friedrich, Wanderer above the Sea of Fog, 1819</p>
-            </div>
-        </div>
+      </div>
     </section>
-</div>
-<footer class="footer">
-    <div class="wrapper">
-        <div class="footer_item">
-            <div class="footer_logo">
-                <img src="assets/Logo.svg">
+    <section class="visiting">
+      <div class="countaner">
+        <h2 class="slider__title title">Virtual tour</h2>
+        <div class="plases">
+          <div class="plase">
+            <div class="plase__img">
+              <img src="assets/img/welcome-slider/1.jpg" alt="Royal Palace" />
             </div>
-            <ul class="footer_menu">
-                <li class="menu_item">
-                    <a href="" class="menu_link">YouTube</a>
-                    <a href="" class="menu_link">Instagram</a>
-                    <a href="" class="menu_link">Twitter</a>
-                    <a href="" class="menu_link">Linkedin</a>
-                </li>
-            </ul>
-            <ul class="footer_links">
-                <li class="menu_links">
-                    <a href="" class="links_menu">Home</a>
-                    <a href="" class="links_menu">Paintings</a>
-                    <a href="" class="links_menu">Buy ticket</a>
-                    <a href="" class="links_menu">Contacts</a>
-                </li>
-                <p class="design">Designed by Novyk Aliona, 2021</p>
-            </ul>
-        </div> 
-    </div>
-</footer>
-</body>
+            <h3 class="plase__title title">Royal Palace</h3>
+            <div class="plase__view">360° Virtual Tour</div>
+            <div class="plase__text">Google Street Panorama View</div>
+          </div>
+          <div class="plase">
+            <div class="plase__img">
+              <img src="assets/img/welcome-slider/2.jpg" alt="Denon Wing" />
+            </div>
+            <h3 class="plase__title title">Denon Wing</h3>
+            <div class="plase__view">360° Virtual Tour</div>
+            <div class="plase__text">Google Street Panorama View</div>
+          </div>
+          <div class="plase">
+            <div class="plase__img">
+              <img src="assets/img/welcome-slider/3.jpg" alt="Colonnade Perrault" />
+            </div>
+            <h3 class="plase__title title">Colonnade Perrault</h3>
+            <div class="plase__view">360° Virtual Tour</div>
+            <div class="plase__text">Google Street Panorama View</div>
+          </div>
+          <div class="plase">
+            <div class="plase__img">
+              <img src="assets/img/welcome-slider/4.jpg" alt="Greek hall" />
+            </div>
+            <h3 class="plase__title title">Greek hall</h3>
+            <div class="plase__view">360° Virtual Tour</div>
+            <div class="plase__text">Google Street Panorama View</div>
+          </div>
+          <div class="plase">
+            <div class="plase__img">
+              <img src="assets/img/welcome-slider/5.jpg" alt="Mona Lisa" />
+            </div>
+            <h3 class="plase__title title">Mona Lisa</h3>
+            <div class="plase__view">360° Virtual Tour</div>
+            <div class="plase__text">Google Street Panorama View</div>
+          </div>
+          <div class="plase">
+            <div class="plase__img">
+              <img src="assets/img/paralax.jpg" alt="Night Palace" />
+            </div>
+            <h3 class="plase__title title">Night Palace</h3>
+            <div class="plase__view">360° Virtual Tour</div>
+            <div class="plase__text">Google Street Panorama View</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="explore">
+      <div class="countaner">
+        <div class="explore__flex">
+          <div class="explore__info">
+            <h2 class="explore__title title">Picture explore</h2>
+            <div class="explore__text">
+              <p>
+                Las Meninas is a 1656 painting by Diego Velázquez, the leading
+                artist of the Spanish Golden Age.
+              </p>
+              <p>
+                It was cleaned in 1984 to remove a <span>"yellow veil"</span> of
+                dust that had gathered since the previous restoration in the
+                19th century.
+              </p>
+              <p>
+                The cleaning provoked furious protests, not because the picture
+                had been damaged in any way, but because it looked different.
+              </p>
+            </div>
+          </div>
+          <div class="explore__picture">
+            <img class="line" src="image/info/line.png" alt="line" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video">
+      <div class="countaner">
+        <div class="video__flex">
+          <h2 class="video__title title">Video journey</h2>
+          <div class="video__text">
+            Enter and visit one of the most famous museums in the world and
+            enjoy masterpieces such as Mona Lisa or Hammurabi's Code
+          </div>
+        </div>
+        <div class="player">
+          <video
+            class="player__main"
+            controls
+            poster="image/video/Rectangle.png"
+            src="src/video/video0.mp4"
+          ></video>
+          <div class="player__flex">
+            <div class="player__flex-item">
+              <iframe
+                src="https://www.youtube.com/embed/aWmJ5DgyWPI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="player__flex-item">
+              <iframe
+                src="https://www.youtube.com/embed/Vi5D6FKhRmo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="player__flex-item">
+              <iframe
+                src="https://www.youtube.com/embed/NOhDysLnTvY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="video__scrole">
+          <button class="video__scrole-left">
+            <img src="image/video/left.png" alt="left" />
+          </button>
+          <div class="video__scrole-item video__scrole-item-activ"></div>
+          <div class="video__scrole-item"></div>
+          <div class="video__scrole-item"></div>
+          <div class="video__scrole-item"></div>
+          <div class="video__scrole-item"></div>
+          <button class="video__scrole-right">
+            <img src="image/video/right.png" alt="right" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="countaner">
+        <h2 class="gallery__title title">Art Gallery</h2>
+        <div class="gallery__flex">
+          <div class="gallery__flex-item gallery__flex-item1">
+            <img src="assets/img/galery/galery1.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item2">
+            <img src="assets/img/galery/galery2.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item3">
+            <img src="assets/img/galery/galery3.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item4">
+            <img src="assets/img/galery/galery4.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item5">
+            <img src="assets/img/galery/galery5.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item6">
+            <img src="assets/img/galery/galery6.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item7">
+            <img src="assets/img/galery/galery7.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item8">
+            <img src="assets/img/galery/galery8.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item9">
+            <img src="assets/img/galery/galery9.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item10">
+            <img src="assets/img/galery/galery10.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item11">
+            <img src="assets/img/galery/galery11.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item12">
+            <img src="assets/img/galery/galery12.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item13">
+            <img src="assets/img/galery/galery13.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item14">
+            <img src="assets/img/galery/galery14.jpg" alt="painting" />
+          </div>
+          <div class="gallery__flex-item gallery__flex-item15">
+            <img src="assets/img/galery/galery15.jpg" alt="painting" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tickets">
+      <div class="countaner">
+        <h2 class="tickets__title title">BUY TICKETS</h2>
+        <div class="flex-tickets">
+          <div class="image-tickets"></div>
+          <div class="type-tickets">
+            <div class="type-tickets__title">Ticket Type</div>
+            <div class="type-tickets__input">
+              <p>
+                <input
+                  type="radio"
+                  checked
+                  name="type"
+                  value="Permanent exhibition"
+                />
+                Permanent exhibition
+              </p>
+              <p>
+                <input
+                  type="radio"
+                  name="type"
+                  value="Temporary exhibition"
+                />Temporary exhibition
+              </p>
+              <p>
+                <input
+                  type="radio"
+                  name="type"
+                  value="Combined Admission"
+                />Combined Admission
+              </p>
+            </div>
+          </div>
+          <div class="amount-tickets">
+            <div class="amount-tickets__title"></div>
+            <div class="amount-tickets__text"></div>
+            <div class="amount-tickets__flex">
+              <div class="amount-tickets__input">
+                <button class="minus"></button>
+                <input type="number" name="basic" value="1" />
+                <button class="plus"></button>
+              </div>
+            </div>
+            <div class="amount-tickets__text"></div>
+            <div class="amount-tickets__flex">
+              <div class="amount-tickets__input">
+                <button class="minus"></button>
+                <input type="number" name="senior" value="1" />
+                <button class="plus"></button>
+              </div>
+            </div>
+            <div class="amount-total"></div>
+            <button class="amount-tickets__buy"></button>
+          </div>
+        </div>
+      </div>
+      <div class="fon-tickets"></div>
+    </section>
+  </body>
 </html>
